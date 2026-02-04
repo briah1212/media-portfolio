@@ -1,0 +1,8 @@
+{
+  "name": "Media Portfolio",
+  "description": "A smooth, cartoony, and professional personal website for creators featuring Figma-style phone displays and YouTube-style video showcases.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
