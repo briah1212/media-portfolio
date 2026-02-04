@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Hsu | UGC Creator & Creative Strategist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/magilio" rel="stylesheet">
+    <style>
+        :root {
+            --font-display: 'Magilio', serif;
+            --font-sans: 'Outfit', sans-serif;
+            --accent: #6366f1;
+        }
+        body {
+            font-family: var(--font-sans);
+            background-color: #ffffff;
+            background-image: radial-gradient(#e5e7eb 1.5px, transparent 1.5px);
+            background-size: 50px 50px;
+            scroll-behavior: smooth;
+            color: #0f172a;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, .font-magilio {
+            font-family: var(--font-display) !important;
+            /* Improved letter-spacing: wider for readability, fixes the "too close" issue */
+            letter-spacing: 0.06em;
+            line-height: 1.1;
+        }
+        .ux-shadow {
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .ux-card-shadow {
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.08);
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .badge-ui {
+            font-family: 'Monaco', 'Consolas', monospace;
+            /* Increased size for better readability as requested */
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            padding: 6px 12px;
+            border-radius: 6px;
+            background: #f8fafc;
+            color: #4f46e5; /* Deeper indigo for contrast */
+            border: 1px solid #e2e8f0;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(1deg); }
+        }
+        .animate-float { animation: float 8s ease-in-out infinite; }
+        
+        @keyframes ticker {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .ticker-wrap {
+          overflow: hidden;
+          white-space: nowrap;
+          width: 100%;
+          border-top: 1px solid #f1f5f9;
+          border-bottom: 1px solid #f1f5f9;
+          padding: 20px 0;
+          background: #fff;
+        }
+        .ticker-content {
+          display: inline-block;
+          animation: ticker 40s linear infinite;
+        }
+        .ticker-item {
+          display: inline-block;
+          padding: 0 60px;
+          font-family: 'Monaco', monospace;
+          font-size: 12px;
+          font-weight: bold;
+          color: #94a3b8;
+          text-transform: uppercase;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #f8fafc; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; border: 2px solid #f8fafc; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/media-portfolio/assets/index-BrRB8dCj.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
